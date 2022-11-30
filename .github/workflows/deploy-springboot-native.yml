@@ -10,9 +10,9 @@ on:
 
 env:
   # Replace with your registry URL
-  REGISTRY_URL: javaruntimesregistrysinedied.azurecr.io
-  PROJECT: java-runtimes
-  RESOURCE_GROUP: rg-java-runtimes
+  REGISTRY_URL: demojulienregistryjulien.azurecr.io
+  PROJECT: demo-julien-5689
+  RESOURCE_GROUP: rg-demo-julien-5689
 
 jobs:
   build-native:
