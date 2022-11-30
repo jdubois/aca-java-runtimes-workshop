@@ -18,7 +18,7 @@ env:
   # Replace with your registry URL
   REGISTRY_URL: demojulienregistryjulien.azurecr.io
   PROJECT: demo-julien-5689
-  RESOURCE_GROUP: rg-demo-julien
+  RESOURCE_GROUP: rg-demo-julien-5689
   QUARKUS_APP: quarkus-app
   MICRONAUT_APP: micronaut-app
   SPRING_APP: springboot-app
