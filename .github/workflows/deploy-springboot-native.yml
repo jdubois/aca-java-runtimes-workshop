@@ -9,7 +9,7 @@ on:
       - springboot-app/**
 
 env:
-  # Replace with your registry URL
+  # Replace with your registry URL test
   REGISTRY_URL: demojulienregistryjulien.azurecr.io
   PROJECT: demo-julien-5689
   RESOURCE_GROUP: rg-demo-julien-5689
