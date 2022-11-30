@@ -19,8 +19,8 @@ public class SpringbootApplication {
 
         @Override
         public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
-            hints.reflection()
-                .registerType(org.hibernate.dialect.PostgreSQL95Dialect.class, MemberCategory.INVOKE_PUBLIC_CONSTRUCTORS);
+            /*hints.reflection()
+                .registerType(org.hibernate.dialect.PostgreSQL95Dialect.class, MemberCategory.INVOKE_PUBLIC_CONSTRUCTORS);*/
         }
     }
 }
