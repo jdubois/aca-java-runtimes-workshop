@@ -2,14 +2,14 @@ name: Build and deploy Spring Boot native image
 
 on:
   push:
-    branches: [main]
+    branches: [demo-julien]
     workflow_dispatch:
     paths:
       - .github/workflows/*.yml
       - springboot-app/**
 
 env:
-  # Replace with your registry URL test
+  # Replace with your registry URL
   REGISTRY_URL: demojulienregistryjulien.azurecr.io
   PROJECT: demo-julien-5689
   RESOURCE_GROUP: rg-demo-julien-5689
