@@ -26,7 +26,7 @@ public class SpringbootResourceTest {
           .when().get(basePath)
           .then()
             .statusCode(200)
-            .body(is("SpringBoot: hello"));
+            .body(startsWith("SpringBoot: hello"));
     }
 // end::adocTestHello[]
 
