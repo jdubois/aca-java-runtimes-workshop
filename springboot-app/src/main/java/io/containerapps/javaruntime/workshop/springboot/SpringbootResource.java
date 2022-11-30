@@ -40,7 +40,7 @@ public class SpringbootResource {
     @GetMapping(produces = MediaType.TEXT_PLAIN_VALUE)
     public String hello() {
         LOGGER.log(INFO, "SpringBoot: hello");
-        return "SpringBoot: hello from the JVM";
+        return "SpringBoot: hello from the native image";
     }
 // end::adocMethodHello[]
 
