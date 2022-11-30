@@ -1,5 +1,5 @@
 # tag::adocGitHubActionsWorkflowBase[]
-name: Build and deploy to Azure Container Apps
+name: Build and deploy Spring Boot JVM
 
 # Controls when the action will run.
 # We want to run this workflow every time a commit is pushed to the 'main' branch
